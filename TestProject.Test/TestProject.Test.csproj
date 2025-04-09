@@ -19,7 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="../../TestProject/TestProject.csproj" />
+    <ProjectReference Include="../TestProject/TestProject.csproj" />
   </ItemGroup>
 
   <ItemGroup>
