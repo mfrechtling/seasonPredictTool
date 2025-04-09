@@ -1,0 +1,25 @@
+name: gitVersion
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+
+jobs:
+  create_version:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Install GitVersion
+        uses: gittools/actions/gitversion/setup@v1.1.1
+        with:
+          versionSpec: '5.x'
+      - name: Determine Version
+        id: version_step
+        uses: gittools/actions/gitversion/execute@v1.1.1
+        with:
+          useConfigFile: true
