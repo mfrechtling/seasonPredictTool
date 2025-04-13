@@ -1,4 +1,4 @@
-﻿using TestProject;
+﻿using FluentAssertions;
 
 namespace TestProject.Test;
 
@@ -8,21 +8,21 @@ public class TestClassTests
     public void TestStartsWithUpper(string word)
     {
         bool result = word.StartsWithUpper();
-        Assert.That(result, string.Format("Expected for '{0}': true; Actual: {1}", word, result));
+        result.Should().BeTrue("Expected for '{0}': true; Actual: {1}", word, result);
     }
 
     [TestCaseSource(nameof(LowerCaseStrings))]
     public void TestDoesNotStartWithUpper(string word)
     {
         bool result = word.StartsWithUpper();
-        Assert.That(!result, string.Format("Expected for '{0}': false; Actual: {1}", word, result));
+        result.Should().BeFalse("Expected for '{0}': false; Actual: {1}", word, result);
     }
 
     [TestCaseSource(nameof(NullOrEmptyStrings))]
     public void DirectCallWithNullOrEmpty(string? word)
     {
         bool result = TestClass.StartsWithUpper(word);
-        Assert.That(!result, string.Format("Expected for '{0}': false; Actual: {1}", word == null ? "<null>" : word, result));
+        result.Should().BeFalse("Expected for '{0}': false; Actual: {1}", word == null ? "<null>" : word, result);
     }
 
     private static IEnumerable<string?> NullOrEmptyStrings()
