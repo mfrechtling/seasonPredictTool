@@ -9,6 +9,7 @@ on:
     branches:
       - main
       - dev
+  workflow_call:
 
 jobs:
   create_version:
@@ -19,11 +20,12 @@ jobs:
         with:
           fetch-depth: 0
       - name: Install GitVersion
-        uses: gittools/actions/gitversion/setup@v1.1.1
+        uses: gittools/actions/gitversion/setup@v3.2.0
         with:
-          versionSpec: '5.x'
+          versionSpec: '6.x'
       - name: Determine Version
         id: version_step
-        uses: gittools/actions/gitversion/execute@v1.1.1
+        uses: gittools/actions/gitversion/execute@v3.2.0
         with:
           useConfigFile: true
+          updateAssemblyInfo: true
