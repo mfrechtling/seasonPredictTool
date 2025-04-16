@@ -28,4 +28,4 @@ jobs:
         with:
           tag_name: ${{ steps.version_step.outputs.SemVer }}
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.DOCKER_PUBLISH_TOKEN }}
