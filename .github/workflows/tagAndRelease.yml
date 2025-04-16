@@ -1,19 +1,20 @@
-on: 
-    push:
-        branches:
-            - main
-jobs:
-    tag_and_release:
-        runs-on: ubuntu-latest
-        steps:
-            - name: GitVersion
-            id: gitVersion
-            uses: ./.github/workflows/gitVersion.yml
-            with:
+name: gitVersion
 
-            - name: CreateVersion
-            uses: avakar/tag-and-release@v1 
-            with:
-                tag_name: ${{ steps.gitversion.outputs.SemVer }}
-            env:
-                GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  create_version:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run GitVersion
+        id: gitVersion
+        uses: ./.github/workflows/gitVersion.yml
+      - name: Tag and Release
+        uses: avakar/tag-and-release@v1 
+        with:
+          tag_name: ${{ steps.gitversion.outputs.SemVer }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
