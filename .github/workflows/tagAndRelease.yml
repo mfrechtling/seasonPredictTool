@@ -1,4 +1,4 @@
-name: gitVersion
+name: Tag and Release
 
 on:
   push:
