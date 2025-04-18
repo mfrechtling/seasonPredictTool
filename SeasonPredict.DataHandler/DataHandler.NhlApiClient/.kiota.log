@@ -1,0 +1,50 @@
+Warning: KiotaBuilder OpenAPI warning: #/components/schemas/Conference/properties/link - The format uri is not supported by Kiota and the string type will be used.
+Warning: KiotaBuilder OpenAPI warning: #/components/schemas/Division/properties/link - The format uri is not supported by Kiota and the string type will be used.
+Warning: KiotaBuilder OpenAPI warning: #/components/schemas/Division/properties/conference/properties/link - The format uri is not supported by Kiota and the string type will be used.
+Warning: KiotaBuilder OpenAPI warning: #/components/schemas/Draft/properties/drafts/items/properties/rounds/items/properties/picks/items/properties/team/properties/link - The format uri is not supported by Kiota and the string type will be used.
+Warning: KiotaBuilder OpenAPI warning: #/components/schemas/Draft/properties/drafts/items/properties/rounds/items/properties/picks/items/properties/prospect/properties/link - The format uri is not supported by Kiota and the string type will be used.
+Warning: KiotaBuilder OpenAPI warning: #/components/schemas/DraftProspect/properties/link - The format uri is not supported by Kiota and the string type will be used.
+Warning: KiotaBuilder OpenAPI warning: #/components/schemas/DraftProspect/properties/amateurTeam/properties/link - The format uri is not supported by Kiota and the string type will be used.
+Warning: KiotaBuilder OpenAPI warning: #/components/schemas/DraftProspect/properties/amateurLeague/properties/link - The format uri is not supported by Kiota and the string type will be used.
+Warning: KiotaBuilder OpenAPI warning: #/components/schemas/Franchise/properties/link - The format uri is not supported by Kiota and the string type will be used.
+Warning: KiotaBuilder OpenAPI warning: #/components/schemas/Game/properties/link - The format uri is not supported by Kiota and the string type will be used.
+Warning: KiotaBuilder OpenAPI warning: #/components/schemas/Game/properties/gameData/properties/venue/properties/link - The format uri is not supported by Kiota and the string type will be used.
+Warning: KiotaBuilder OpenAPI warning: #/components/schemas/GameBoxscoreTeam/properties/team/properties/link - The format uri is not supported by Kiota and the string type will be used.
+Warning: KiotaBuilder OpenAPI warning: #/components/schemas/GameBoxscoreTeam/properties/players/properties/person/properties/link - The format uri is not supported by Kiota and the string type will be used.
+Warning: KiotaBuilder OpenAPI warning: #/components/schemas/GameBoxscoreTeam/properties/coaches/items/properties/person/properties/link - The format uri is not supported by Kiota and the string type will be used.
+Warning: KiotaBuilder OpenAPI warning: #/components/schemas/GameContent/properties/link - The format uri is not supported by Kiota and the string type will be used.
+Warning: KiotaBuilder OpenAPI warning: #/components/schemas/GameHighlight/properties/playbacks/items/properties/url - The format video is not supported by Kiota for the type String and the string type will be used.
+Warning: KiotaBuilder OpenAPI warning: #/components/schemas/GameDecisionPlayer/properties/link - The format uri is not supported by Kiota and the string type will be used.
+Warning: KiotaBuilder OpenAPI warning: #/components/schemas/GameLinescoreTeam/properties/team/properties/link - The format uri is not supported by Kiota and the string type will be used.
+Warning: KiotaBuilder OpenAPI warning: #/components/schemas/GameOfficial/properties/official/properties/link - The format uri is not supported by Kiota and the string type will be used.
+Warning: KiotaBuilder OpenAPI warning: #/components/schemas/GamePlay/properties/players/items/properties/player/properties/link - The format uri is not supported by Kiota and the string type will be used.
+Warning: KiotaBuilder OpenAPI warning: #/components/schemas/GamePlay/properties/team/properties/link - The format uri is not supported by Kiota and the string type will be used.
+Warning: KiotaBuilder OpenAPI warning: #/components/schemas/Photo/properties/cuts/properties/src - The format url is not supported by Kiota for the type String and the string type will be used.
+Warning: KiotaBuilder OpenAPI warning: #/components/schemas/Photo/properties/cuts/properties/at2x - The format url is not supported by Kiota for the type String and the string type will be used.
+Warning: KiotaBuilder OpenAPI warning: #/components/schemas/Photo/properties/cuts/properties/at3x - The format url is not supported by Kiota for the type String and the string type will be used.
+Warning: KiotaBuilder OpenAPI warning: #/components/schemas/Player/properties/link - The format uri is not supported by Kiota and the string type will be used.
+Warning: KiotaBuilder OpenAPI warning: #/components/schemas/Player/properties/currentTeam/properties/link - The format uri is not supported by Kiota and the string type will be used.
+Warning: KiotaBuilder OpenAPI warning: #/components/schemas/PlayerStats/properties/stats/items/properties/splits/items/properties/opponent/properties/link - The format uri is not supported by Kiota and the string type will be used.
+Warning: KiotaBuilder OpenAPI warning: #/components/schemas/PlayerStats/properties/stats/items/properties/splits/items/properties/opponentDivision/properties/link - The format uri is not supported by Kiota and the string type will be used.
+Warning: KiotaBuilder OpenAPI warning: #/components/schemas/PlayerStats/properties/stats/items/properties/splits/items/properties/opponentConference/properties/link - The format uri is not supported by Kiota and the string type will be used.
+Warning: KiotaBuilder OpenAPI warning: #/components/schemas/Roster/properties/person/properties/link - The format uri is not supported by Kiota and the string type will be used.
+Warning: KiotaBuilder OpenAPI warning: #/components/schemas/ScheduleGame/properties/link - The format uri is not supported by Kiota and the string type will be used.
+Warning: KiotaBuilder OpenAPI warning: #/components/schemas/ScheduleGame/properties/teams/properties/home/properties/team/properties/link - The format uri is not supported by Kiota and the string type will be used.
+Warning: KiotaBuilder OpenAPI warning: #/components/schemas/ScheduleGame/properties/venue/properties/link - The format uri is not supported by Kiota and the string type will be used.
+Warning: KiotaBuilder OpenAPI warning: #/components/schemas/ScheduleGame/properties/tickets/items/properties/ticketLink - The format url is not supported by Kiota for the type String and the string type will be used.
+Warning: KiotaBuilder OpenAPI warning: #/components/schemas/ScheduleGame/properties/content/properties/link - The format uri is not supported by Kiota and the string type will be used.
+Warning: KiotaBuilder OpenAPI warning: #/components/schemas/Standings/properties/records/items/properties/league/properties/link - The format uri is not supported by Kiota and the string type will be used.
+Warning: KiotaBuilder OpenAPI warning: #/components/schemas/Standings/properties/records/items/properties/division/properties/link - The format uri is not supported by Kiota and the string type will be used.
+Warning: KiotaBuilder OpenAPI warning: #/components/schemas/Standings/properties/records/items/properties/conference/properties/link - The format uri is not supported by Kiota and the string type will be used.
+Warning: KiotaBuilder OpenAPI warning: #/components/schemas/Standings/properties/records/items/properties/teamRecords/items/properties/team/properties/link - The format uri is not supported by Kiota and the string type will be used.
+Warning: KiotaBuilder OpenAPI warning: #/components/schemas/Team/properties/link - The format uri is not supported by Kiota and the string type will be used.
+Warning: KiotaBuilder OpenAPI warning: #/components/schemas/Team/properties/division/properties/link - The format uri is not supported by Kiota and the string type will be used.
+Warning: KiotaBuilder OpenAPI warning: #/components/schemas/Team/properties/conference/properties/link - The format uri is not supported by Kiota and the string type will be used.
+Warning: KiotaBuilder OpenAPI warning: #/components/schemas/Team/properties/nextGameSchedule/properties/dates/items/properties/games/items/properties/link - The format uri is not supported by Kiota and the string type will be used.
+Warning: KiotaBuilder OpenAPI warning: #/components/schemas/Team/properties/nextGameSchedule/properties/dates/items/properties/games/items/properties/teams/properties/away/properties/team/properties/link - The format uri is not supported by Kiota and the string type will be used.
+Warning: KiotaBuilder OpenAPI warning: #/components/schemas/Team/properties/nextGameSchedule/properties/dates/items/properties/games/items/properties/teams/properties/home/properties/team/properties/link - The format uri is not supported by Kiota and the string type will be used.
+Warning: KiotaBuilder OpenAPI warning: #/components/schemas/Team/properties/nextGameSchedule/properties/dates/items/properties/games/items/properties/venue/properties/link - The format uri is not supported by Kiota and the string type will be used.
+Warning: KiotaBuilder OpenAPI warning: #/components/schemas/Team/properties/nextGameSchedule/properties/dates/items/properties/games/items/properties/content/properties/link - The format uri is not supported by Kiota and the string type will be used.
+Warning: KiotaBuilder OpenAPI warning: #/components/schemas/Team/properties/officialSiteUrl - The format url is not supported by Kiota for the type String and the string type will be used.
+Warning: KiotaBuilder OpenAPI warning: #/components/schemas/TeamStats/properties/stats/items/properties/splits/items/properties/team/properties/link - The format uri is not supported by Kiota and the string type will be used.
+Warning: KiotaBuilder OpenAPI warning: #/components/schemas/Venue/properties/link - The format uri is not supported by Kiota and the string type will be used.
