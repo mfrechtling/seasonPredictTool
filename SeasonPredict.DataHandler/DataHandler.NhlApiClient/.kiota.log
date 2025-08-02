@@ -1,3 +1,8 @@
+Warning: KiotaBuilder OpenAPI warning: #/components/schemas/PlayerResponse/properties/teamLogo - The format uri is not supported by Kiota and the string type will be used.
+Warning: KiotaBuilder OpenAPI warning: #/components/schemas/PlayerResponse/properties/headshot - The format uri is not supported by Kiota and the string type will be used.
+Warning: KiotaBuilder OpenAPI warning: #/components/schemas/PlayerResponse/properties/heroImage - The format uri is not supported by Kiota and the string type will be used.
+Warning: KiotaBuilder OpenAPI warning: #/components/schemas/StatLeader/properties/headshot - The format uri is not supported by Kiota and the string type will be used.
+Warning: KiotaBuilder OpenAPI warning: #/components/schemas/StatLeader/properties/teamLogo - The format uri is not supported by Kiota and the string type will be used.
 Warning: KiotaBuilder OpenAPI warning: #/components/schemas/Conference/properties/link - The format uri is not supported by Kiota and the string type will be used.
 Warning: KiotaBuilder OpenAPI warning: #/components/schemas/Division/properties/link - The format uri is not supported by Kiota and the string type will be used.
 Warning: KiotaBuilder OpenAPI warning: #/components/schemas/Division/properties/conference/properties/link - The format uri is not supported by Kiota and the string type will be used.

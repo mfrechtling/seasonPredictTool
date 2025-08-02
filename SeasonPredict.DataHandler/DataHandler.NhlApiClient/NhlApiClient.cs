@@ -10,6 +10,7 @@ using DataHandler.NhlApiClient.Standings;
 using DataHandler.NhlApiClient.StandingsTypes;
 using DataHandler.NhlApiClient.StatTypes;
 using DataHandler.NhlApiClient.Teams;
+using DataHandler.NhlApiClient.V1;
 using Microsoft.Kiota.Abstractions.Extensions;
 using Microsoft.Kiota.Abstractions;
 using Microsoft.Kiota.Serialization.Form;
@@ -78,6 +79,11 @@ namespace DataHandler.NhlApiClient
         {
             get => new global::DataHandler.NhlApiClient.Teams.TeamsRequestBuilder(PathParameters, RequestAdapter);
         }
+        /// <summary>The v1 property</summary>
+        public global::DataHandler.NhlApiClient.V1.V1RequestBuilder V1
+        {
+            get => new global::DataHandler.NhlApiClient.V1.V1RequestBuilder(PathParameters, RequestAdapter);
+        }
         /// <summary>
         /// Instantiates a new <see cref="global::DataHandler.NhlApiClient.NhlApiClient"/> and sets the default values.
         /// </summary>
@@ -93,7 +99,7 @@ namespace DataHandler.NhlApiClient
             ApiClientBuilder.RegisterDefaultDeserializer<FormParseNodeFactory>();
             if (string.IsNullOrEmpty(RequestAdapter.BaseUrl))
             {
-                RequestAdapter.BaseUrl = "https://statsapi.web.nhl.com/api/v1";
+                RequestAdapter.BaseUrl = "https://api-web.nhle.com";
             }
             PathParameters.TryAdd("baseurl", RequestAdapter.BaseUrl);
         }
